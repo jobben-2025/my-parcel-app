@@ -13,4 +13,34 @@ package-lock.json : This file, similar to the previous one in many ways, contain
 
 <!-- Using the Tailwind imported module in styles.css we use: -->
 
-npx parcel index.html
+<!-- npx parcel index.html -->
+
+<!-- Final changes with npm/leaflet, run command: -->
+
+npm run build
+
+<!-- output:
+> build
+> parcel build
+
+✨ Built in 495ms
+
+dist/index.html                       465 B     51ms
+dist/my-parcel-app.a017c8ff.css     4.61 kB     58ms
+dist/my-parcel-app.99cdbd0f.js     149.4 kB    133ms
+dist/my-parcel-app.9b42016c.css    10.53 kB     67ms
+dist/layers.760a0456.png              696 B     38ms
+dist/layers-2x.b7b89169.png         1.26 kB     24ms
+dist/marker-icon.3f7d3721.png       1.47 kB     47ms -->
+
+<!-- output directory 'dist' contains machine optimized code; no spaces or lines which humans require reading! -->
+
+
+
+<!-- Close whatever files you opened, run -->
+npm run build
+<!-- again and then run (the x here stands for executable) -->
+npx serve dist
+
+<!-- runs local webserver: -->
+http://localhost:3000
