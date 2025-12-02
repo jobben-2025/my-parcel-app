@@ -11,3 +11,6 @@ package.json : This file contains a single JSON structure with different keys th
 package-lock.json : This file, similar to the previous one in many ways, contains the full dependency map. Package A needs package B and C and package X needs B ? Well, a map of what needs what is here! This will help us avoid installing packages if we already have them! -->
 
 
+<!-- Using the Tailwind imported module in styles.css we use: -->
+
+npx parcel index.html
